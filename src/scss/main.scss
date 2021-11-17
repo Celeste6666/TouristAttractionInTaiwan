@@ -1,0 +1,13 @@
+// Custom.scss
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400&display=swap');
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "~/node_modules/bootstrap/scss/functions";
+// 2. Include any default variable overrides here
+@import 'customerVariable';
+// 3. Include remainder of required Bootstrap stylesheets
+@import "~/node_modules/bootstrap/scss/variables";
+
+@import "~/node_modules/bootstrap/scss/bootstrap";
+
+@import "~/node_modules/swiper/swiper-vars";
+@import "~/node_modules/swiper/swiper";
